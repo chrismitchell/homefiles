@@ -1,0 +1,11 @@
+[user]
+	name = Chris Mitchell
+	email = chris.jnmitchell@gmail.com
+
+[core]
+	excludesfile = ~/.gitignore_global
+[color]
+	ui = true
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
