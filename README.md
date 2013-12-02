@@ -4,7 +4,7 @@ homefiles
 Repo to manage my dotfiles
 
 Brewfile
-========
+--------
 
 This will process the Brewfile in the current directory:
 
