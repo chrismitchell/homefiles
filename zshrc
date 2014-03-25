@@ -10,10 +10,14 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias etfdb="cd ~/dev/mitremedia/forks/etfdb.com"
 alias dividend="cd ~/dev/mitremedia/forks/dividend.com"
-alias etfdb_engine="cd ~/dev/mitremedia/etfdb_engine"
-alias dividend_engine="cd ~/dev/mitremedia/dividend_engine"
+alias dividend_engine="cd ~/dev/mitremedia/forks/dividend_engine"
+alias etfdb="cd ~/dev/mitremedia/forks/etfdb.com"
+alias etfdb_engine="cd ~/dev/mitremedia/forks/etfdb_engine"
+alias sather="cd ~/dev/mitremedia/forks/sather"
+
+alias chef="cd ~/dev/mitremedia/chef"
+alias mitre-cookbooks="cd ~/dev/mitremedia/mitre-cookbooks"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -39,6 +43,13 @@ alias dividend_engine="cd ~/dev/mitremedia/dividend_engine"
 plugins=(git brew bundler capistrano osx rails rake ruby rvm vagrant)
 
 source $ZSH/oh-my-zsh.sh
+
+# Environment variables for Mitre Media gem server
+export MITRE_GEM_SERVER_USERNAME=mitremedia
+export MITRE_GEM_SERVER_PASSWORD=**********
+export ETFDB_DBHOST=local.etfdb.com
+export DIVIDEND_DBHOST=local.dividend.com
+export SATHER_DIR=/Users/chrismitchell/dev/mitremedia/forks/sather
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/Users/chrismitchell/.rvm/gems/ruby-1.9.3-p327/bin:/Users/chrismitchell/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/chrismitchell/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/chrismitchell/.rvm/bin:/Users/chrismitchell/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin
