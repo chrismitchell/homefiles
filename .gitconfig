@@ -1,14 +1,19 @@
 [user]
 	name = Chris Mitchell
 	email = chris.jnmitchell@gmail.com
-
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = atom --wait
 [color]
 	ui = true
+[commit]
+	template = ~/.gitmessage
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = matching
