@@ -1,7 +1,7 @@
 set guioptions-=T
 
 color molokai
-set guifont=Hack:h11.00
+set guifont=Hack:h12.00
 set wildmenu
 
 function! InsertStatuslineColor(mode)
