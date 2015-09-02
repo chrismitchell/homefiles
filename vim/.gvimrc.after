@@ -20,6 +20,9 @@ au InsertLeave * hi statusline guibg=green
 " default the statusline to green when entering Vim
 hi statusline guibg=green
 
+let g:NERDTreeShowHidden = 1   " Show hidden files
+let g:ctrlp_show_hidden  = 1   " Search dotfiles
+
 " strip trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
