@@ -14,11 +14,11 @@ function virtualenv_info {
 # Uncomment if you are using RVM on Mac or Linux
 
 function rvm_ps1 {
-  rvm_ps1=`rvm-prompt v`
+  rvm_ps1=`rvm current`
   echo $rvm_ps1
 }
 
-PROMPT=' %(?,%F{green},%F{red})%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} using %{$fg[blue]%}$($rvm_ps1)%{$reset_color%} in %{$fg_bold[green]%}$(collapse_pwd)%{$reset_color%}$(git_prompt_info) $(virtualenv_info)$(prompt_char) '
+PROMPT=' %(?,%F{green},%F{red})%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} using %{$fg[blue]%}$(rvm_ps1)%{$reset_color%} in %{$fg_bold[green]%}$(collapse_pwd)%{$reset_color%}$(git_prompt_info) $(virtualenv_info)$(prompt_char) '
 
 # Uncomment if you are using rbenv on Mac or Linux
 
