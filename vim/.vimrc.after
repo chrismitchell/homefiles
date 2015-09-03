@@ -4,6 +4,11 @@ filetype on                       " Turn on filetype detection.
 
 set autoread                      " Automatically reload changes if detected
 
+" Source the vimrc file after saving it
+if has("autocmd")
+  autocmd bufwritepost .vimrc source $MYVIMRC
+endif
+
 set guioptions-=T
 
 color molokai
