@@ -79,11 +79,11 @@ export COMMODITYHQ_MYSQL_PASSWORD=d0notenter
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='mvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -99,6 +99,13 @@ export COMMODITYHQ_MYSQL_PASSWORD=d0notenter
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# Contracting
+alias spencerfry="cd ~/dev/github/spencerfry"
+alias withcoach="cd ~/dev/github/withcoach"
+alias uncover="cd ~/dev/github/uncover-perks"
+
+# Mitre Media
 alias bondfunds="cd ~/dev/mitremedia/forks/bondfunds.com"
 alias bondfunds_engine="cd ~/dev/mitremedia/forks/bondfunds_engine"
 alias commodityhq="cd ~/dev/mitremedia/forks/commodityhq.com"
@@ -124,3 +131,4 @@ alias chef="cd ~/dev/mitremedia/chef"
 alias mitre-cookbooks="cd ~/dev/mitremedia/mitre-cookbooks"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
