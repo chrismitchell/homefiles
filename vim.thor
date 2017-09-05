@@ -8,7 +8,7 @@ class Vim < Thor
     create_link "#{ENV['HOME']}/.vimrc", "#{Dir.pwd}/vim/vimrc"
     inside "#{ENV['HOME']}/.vim}" do
       run('git clone https://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle')
-      run('vim +BundleInstall +qall')
+      run('vim +PluginInstall +qall')
     end
   end
 

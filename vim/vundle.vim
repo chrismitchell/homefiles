@@ -3,70 +3,81 @@
 " ----------------------------------------
 "
 " Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" :PluginList          - list configured bundles
+" :PluginInstall(!)    - install(update) bundles
+" :PluginSearch(!) foo - search(or refresh cache first) for foo
+" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
 "
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
+" NOTE: comments after Plugin command are not allowed..
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle mange Vundle, required
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " ---------------
-" Plugin Bundles
+" Plugins
 " ---------------
 " http://code.tutsplus.com/series/vim-essential-plugins--net-19224
 
 " CoffeeScript support for vim
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'kchmck/vim-coffee-script'
 
 " one colorscheme pack to rule them all!
-Bundle 'flazz/vim-colorschemes'
+"Plugin 'flazz/vim-colorschemes'
+Plugin 'dracula/vim'
 
 " Fuzzy file, buffer, mru, tag, etc finder.
-Bundle 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 
 " Vim motions on speed!
-Bundle 'Lokaltog/vim-easymotion'
+Plugin 'Lokaltog/vim-easymotion'
 
 " a Git wrapper so awesome, it should be illegal
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 " Vim-script library
-Bundle 'L9'
+Plugin 'L9'
 
 " A tree explorer plugin for vim
-" Bundle 'scrooloose/nerdtree'
+" Plugin 'scrooloose/nerdtree'
+
+" Git diff in the gutter
+Plugin 'airblade/vim-gitgutter'
 
 " The ultimate statusline/prompt utility.
-Bundle 'Lokaltog/powerline'
+Plugin 'Lokaltog/powerline'
+
+" Lean and mean status/tabline for vim
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Ruby on Rails power tools
-Bundle 'tpope/vim-rails'
+Plugin 'tpope/vim-rails'
 
 " aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
 
 " snipmate dependancies first.
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle 'garbas/vim-snipmate'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
 " quoting/parenthesizing made simple
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-surround'
+
+" syntax checking
+Plugin 'vim-syntastic/syntastic'
 
 " Vim script for text filtering and alignment
-Bundle 'godlygeek/tabular'
+Plugin 'godlygeek/tabular'
 
 " An extensible & universal comment plugin that also handles embedded filetypes
-Bundle 'tComment'
+Plugin 'tComment'
 
 " Elixir support for vim.
-Bundle 'elixir-lang/vim-elixir'
+Plugin 'elixir-lang/vim-elixir'
 
 "  TODO:
 " https://github.com/junegunn/vim-easy-align
