@@ -34,6 +34,23 @@ let g:syntastic_ruby_checkers=['mri', 'rubocop']
 let g:syntastic_mode_map={'mode': 'active', 'active_filetypes': [], 'passive_filetypes': []}
 let g:syntastic_quiet_messages={}
 
+"---------------
+" Vim Go
+"---------------
+let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_auto_type_info = 1
+let g:go_auto_sameids = 1
+let g:go_template_autocreate = 0
+let g:go_list_type = "quickfix"
+let g:go_quickfix_height = 1
+
 " ---------------
 " Vundle
 " ---------------

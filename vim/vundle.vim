@@ -81,3 +81,6 @@ Plugin 'elixir-lang/vim-elixir'
 
 " Elixir Integration Into Vim
 Plugin 'slashmili/alchemist.vim'
+
+" Go development plugin
+Plugin 'fatih/vim-go'
