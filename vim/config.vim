@@ -28,11 +28,8 @@ set laststatus=2                  " Show the status line all the time
 set showmatch                     " briefly jump to matching }] when typing
 
 " Make it obvious where 100 characters is
+set textwidth=81
 set colorcolumn=100
-
-" show trailing whitespace chars
-set list
-set listchars=tab:>-,trail:.,extends:#,nbsp:.
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
