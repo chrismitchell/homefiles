@@ -57,12 +57,13 @@ Plugin 'vim-airline/vim-airline-themes'
 " Ruby on Rails power tools
 Plugin 'tpope/vim-rails'
 
-" aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
-
 " snipmate dependancies first.
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+
+" Snippet files for various programming languages
+Plugin 'honza/vim-snippets'
 
 " quoting/parenthesizing made simple
 Plugin 'tpope/vim-surround'
@@ -80,7 +81,7 @@ Plugin 'tComment'
 Plugin 'elixir-lang/vim-elixir'
 
 " Elixir Integration Into Vim
-Plugin 'slashmili/alchemist.vim'
+" Plugin 'slashmili/alchemist.vim'
 
 " Go development plugin
 Plugin 'fatih/vim-go'
