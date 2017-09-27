@@ -13,6 +13,9 @@ endif
 set showcmd                       " Display incomplete commands
 set showmode                      " DIsplay the mode you are in
 
+set visualbell                    " No beeping.
+set noerrorbells                  " No beeping.
+
 set backspace=indent,eol,start    " Intuitive backspacing.
 
 set hidden                        " Handle multiple buffers better

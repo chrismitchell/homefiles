@@ -44,6 +44,9 @@ Plugin 'L9'
 " A tree explorer plugin for vim
 " Plugin 'scrooloose/nerdtree'
 
+" Commenting functions
+Plugin 'scrooloose/nerdcommenter'
+
 " Git diff in the gutter
 Plugin 'airblade/vim-gitgutter'
 
@@ -75,7 +78,7 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'godlygeek/tabular'
 
 " An extensible & universal comment plugin that also handles embedded filetypes
-Plugin 'tComment'
+" Plugin 'tComment'
 
 " Elixir support for vim.
 Plugin 'elixir-lang/vim-elixir'
