@@ -28,6 +28,7 @@ set number                        " Show line numbers.
 set numberwidth=5
 set ruler                         " Show cursor position.
 set laststatus=2                  " Show the status line all the time
+set cursorline                    " Highlight current line
 set showmatch                     " briefly jump to matching }] when typing
 
 " Make it obvious where 100 characters is

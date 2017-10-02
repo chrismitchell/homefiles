@@ -5,7 +5,7 @@
 " ---------------
 " Colorscheme
 " ---------------
-colorscheme dracula
+color dracula
 
 " ---------------
 " NERD Commenter
