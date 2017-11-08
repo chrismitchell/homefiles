@@ -13,8 +13,9 @@ endif
 set showcmd                       " Display incomplete commands
 set showmode                      " DIsplay the mode you are in
 
-set visualbell                    " No beeping.
-set noerrorbells                  " No beeping.
+" set visualbell                    " No beeping.
+" set noerrorbells                  " No beeping.
+set belloff=all                   " disable all bells and flashing
 
 set backspace=indent,eol,start    " Intuitive backspacing.
 
