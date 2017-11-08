@@ -1,6 +1,0 @@
-" If you would like to disable an included plug-in, you can do that with the janus#disable_plugin()
-" function from inside your ~/.vimrc.before. This function takes a plug-in name as an argument
-" without the group. For example, if you would like to disable the NERDCommenter plug-in, you can do
-" that with the command:
-"
-" $ echo "call janus#disable_plugin('nerdcommenter')" >> ~/.vimrc.before
