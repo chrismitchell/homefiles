@@ -60,6 +60,9 @@ Plugin 'vim-airline/vim-airline-themes'
 " Ruby on Rails power tools
 Plugin 'tpope/vim-rails'
 
+" Haml, Sass, and SCSS
+Plugin 'tpope/vim-haml'
+
 " snipmate dependancies first.
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
