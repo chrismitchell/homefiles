@@ -32,8 +32,8 @@ set laststatus=2                  " Show the status line all the time
 set cursorline                    " Highlight current line
 set showmatch                     " briefly jump to matching }] when typing
 
-" Make it obvious where 100 characters is
-set textwidth=80
+" Make it obvious where 110 characters is
+set textwidth=110
 set colorcolumn=+1
 
 " Open new split panes to right and bottom, which feels more natural
